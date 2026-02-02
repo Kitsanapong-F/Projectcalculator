@@ -7,26 +7,36 @@ public class Calculator {
 
         Scanner input = new Scanner(System.in);
         logic logic = new logic();
-        logic.addNum(0);// ใส่ตัวเลข
+        display display = new display();
+        System.out.print("num: ");
+        double num = input.nextDouble();
+        logic.addNum(num);// ใส่ตัวเลข
 
         while (true) {
-
-            System.out.print("ตัวดำเนินการ (+, -, *, /, %) หรือ '=' เพื่อดูคำตอบ: ");
-            String op = input.next();
+            input.nextLine();
+            System.out.print("\nตัวดำเนินการ (+, -, *, /, %) หรือ '=' เพื่อดูคำตอบ: ");
+            String op = input.nextLine();
             char sop = op.charAt(0);
-            logic.addop(sop);
-
             if (op.equals("=")) {
                 break;
             }
+            logic.addop(sop);
+            System.out.print("num: ");
+            num = input.nextDouble();
+            logic.addNum(num);// ใส่ตัวเลข
 
-            logic.addNum(0);// ใส่ตัวเลข
+            display.SetNum(logic);
+            display.SetOp(logic);
 
-            display asd = new display();
+            display.PrintProcess();
 
         }
+        display.SetNum(logic);
+        display.SetOp(logic);
         if (!logic.CalFirst(false)) {
-            logic.CalSum();// แสดงคำตอบ
+            display.PrintProcess();
+            System.out.print(" = " + logic.CalSum());
+            
         }
         logic.clear();
         input.close();

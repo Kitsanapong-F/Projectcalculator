@@ -1,268 +1,344 @@
 <mxfile host="65bd71144e">
     <diagram id="hsXYmI4EqtVxazhIRDat" name="Page-1">
-        <mxGraphModel dx="821" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="392" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="เริ่ม" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="365" y="40" width="120" height="40" as="geometry"/>
+                <mxCell id="2" value="เริ่ม" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="225" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;b&gt;runing←true,num[]&lt;/b&gt;&lt;div&gt;&lt;b&gt;,startop[]&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="365" y="110" width="120" height="40" as="geometry"/>
+                <mxCell id="3" value="&lt;b&gt;runing←true,num[]&lt;/b&gt;&lt;div&gt;&lt;b&gt;,startop[]&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="225" y="110" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="13">
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8">
+                <mxCell id="17" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8" vertex="1" connectable="0">
                     <mxGeometry x="-0.1304" y="2" relative="1" as="geometry">
                         <mxPoint x="-3" y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="23">
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="24">
+                <mxCell id="25" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="24" vertex="1" connectable="0">
                     <mxGeometry x="-0.1826" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5" value="runing เท่าfalse หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="385" y="190" width="80" height="80" as="geometry"/>
+                <mxCell id="5" value="runing เท่าfalse หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="190" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="1" source="7" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="แสดงผ่านconsole&lt;div&gt;---------เครื่องคิดเลข---------&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="340" y="380" width="170" height="50" as="geometry"/>
+                <mxCell id="7" value="แสดงผ่านconsole&lt;div&gt;---------เครื่องคิดเลข---------&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="380" width="170" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="40">
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="425" y="550.0000000000001" as="targetPoint"/>
+                        <mxPoint x="285" y="550.0000000000001" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="แสดงผ่านconsole&lt;div&gt;เริ่มด้วยเลข&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="340" y="460" width="170" height="50" as="geometry"/>
+                <mxCell id="9" value="แสดงผ่านconsole&lt;div&gt;เริ่มด้วยเลข&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="460" width="170" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="40" target="15">
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="40" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="425.1190476190477" y="600" as="sourcePoint"/>
+                        <mxPoint x="285.1190476190477" y="600" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="7">
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" parent="1" source="13" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="&lt;b&gt;Error←false&lt;/b&gt;&lt;div&gt;&lt;b&gt;loop←true&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="365" y="310" width="120" height="40" as="geometry"/>
+                <mxCell id="13" value="&lt;b&gt;Error←false&lt;/b&gt;&lt;div&gt;&lt;b&gt;loop←true&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="225" y="310" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="19">
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" parent="1" source="15" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
+                <mxCell id="22" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="20" vertex="1" connectable="0">
                     <mxGeometry x="-0.0652" y="2" relative="1" as="geometry">
                         <mxPoint x="-3" y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="53">
+                <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="15" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="620" y="930" as="targetPoint"/>
+                        <mxPoint x="480" y="930" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="27">
+                <mxCell id="28" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="27" vertex="1" connectable="0">
                     <mxGeometry x="-0.2061" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="loobเท่ากับ&lt;div&gt;falseหรือไม่&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="378" y="640" width="95" height="80" as="geometry"/>
+                <mxCell id="15" value="loobเท่ากับ&lt;div&gt;falseหรือไม่&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="238" y="640" width="95" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="31">
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="19" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="423.15957446808534" y="885" as="targetPoint"/>
+                        <mxPoint x="283.15957446808534" y="885" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="แสดงผ่านconsole&lt;div&gt;ตัวดำเนินการ (+,-,*,/,%)&amp;nbsp;&lt;/div&gt;&lt;div&gt;หรือ &#39;=&#39; เพื่อดูคำตอบ&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="320.5" y="760" width="210" height="50" as="geometry"/>
+                <mxCell id="19" value="แสดงผ่านconsole&lt;div&gt;ตัวดำเนินการ (+,-,*,/,%)&amp;nbsp;&lt;/div&gt;&lt;div&gt;หรือ &#39;=&#39; เพื่อดูคำตอบ&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="180.5" y="760" width="210" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-                    <mxGeometry x="575" y="220" width="20" height="20" as="geometry"/>
+                <mxCell id="23" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+                    <mxGeometry x="435" y="220" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="31" target="32">
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;" parent="1" source="31" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="รับค่า&lt;div&gt;op←&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;ตัวดำเนินการ&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="340" y="860" width="170" height="50" as="geometry"/>
+                <mxCell id="31" value="รับค่า&lt;div&gt;op←&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;ตัวดำเนินการ&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="860" width="170" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32" target="38">
+                <mxCell id="35" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="32" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="425.5" y="1060" as="targetPoint"/>
+                        <mxPoint x="285.5" y="1060" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="36" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="35">
+                <mxCell id="36" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="35" vertex="1" connectable="0">
                     <mxGeometry x="-0.1427" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="32" target="53">
+                <mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" parent="1" source="32" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="585.5" y="980" as="targetPoint"/>
+                        <mxPoint x="445.5" y="980" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="48" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="47">
+                <mxCell id="48" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="47" vertex="1" connectable="0">
                     <mxGeometry x="-0.0172" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="op เท่ากับ&amp;nbsp;&lt;div&gt;= หรือไม่&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="385.5" y="940" width="80" height="80" as="geometry"/>
+                <mxCell id="32" value="op เท่ากับ&amp;nbsp;&lt;div&gt;= หรือไม่&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="245.5" y="940" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="38" target="42">
+                <mxCell id="43" value="" style="edgeStyle=none;html=1;" parent="1" source="38" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;startop[]←op&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="365" y="1070" width="120" height="40" as="geometry"/>
+                <mxCell id="38" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;startop[]←op&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="225" y="1070" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;รับค่า&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;num[]←เลข&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="365" y="560" width="120" height="40" as="geometry"/>
+                <mxCell id="40" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;รับค่า&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;num[]←เลข&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="225" y="560" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="42">
+                <mxCell id="45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" parent="1" source="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="425" y="630" as="targetPoint"/>
+                        <mxPoint x="285" y="630" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="220" y="1165"/>
-                            <mxPoint x="220" y="630"/>
-                            <mxPoint x="378" y="630"/>
+                            <mxPoint x="80" y="1165"/>
+                            <mxPoint x="80" y="630"/>
+                            <mxPoint x="238" y="630"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="42" value="แสดงผ่านconsole&lt;div&gt;เลขถัดไป&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="340" y="1140" width="170" height="50" as="geometry"/>
+                <mxCell id="42" value="แสดงผ่านconsole&lt;div&gt;เลขถัดไป&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1140" width="170" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="49" target="52">
+                <mxCell id="51" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="49" target="52" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="420" y="1260" as="targetPoint"/>
+                        <mxPoint x="280" y="1260" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="620" y="1230"/>
-                            <mxPoint x="413" y="1230"/>
+                            <mxPoint x="480" y="1230"/>
+                            <mxPoint x="273" y="1230"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="49" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;หยุด&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="560" y="1150" width="120" height="40" as="geometry"/>
+                <mxCell id="49" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;หยุด&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="1150" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="52" target="56">
+                <mxCell id="57" value="" style="edgeStyle=none;html=1;" parent="1" source="52" target="56" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;i←0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="353" y="1260" width="120" height="40" as="geometry"/>
+                <mxCell id="52" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;i←0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="213" y="1260" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="53" target="49">
+                <mxCell id="55" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="53" target="49" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="620" y="1080" as="targetPoint"/>
+                        <mxPoint x="480" y="1080" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="970" width="20" height="20" as="geometry"/>
+                <mxCell id="53" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="970" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="56" target="70">
+                <mxCell id="59" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="56" target="70" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="330" y="1440" as="targetPoint"/>
+                        <mxPoint x="190" y="1440" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="60" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="59">
+                <mxCell id="60" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="59" vertex="1" connectable="0">
                     <mxGeometry x="-0.1028" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="62" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="56" target="63">
+                <mxCell id="62" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="56" target="63" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="530" y="1380" as="targetPoint"/>
+                        <mxPoint x="390" y="1380" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="62">
+                <mxCell id="66" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="62" vertex="1" connectable="0">
                     <mxGeometry x="-0.1287" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="56" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 10px; background-color: transparent;&quot;&gt;iน้อยกว่า&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;ขนาดของstartop&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;หรือไม่&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="358.32" y="1350" width="109.37" height="60" as="geometry"/>
+                <mxCell id="56" value="&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 10px; background-color: transparent;&quot;&gt;iน้อยกว่า&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;ขนาดของstartop&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;หรือไม่&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="218.32" y="1350" width="109.37" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="63">
+                <mxCell id="65" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="63" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="582.0285714285715" y="1360" as="sourcePoint"/>
-                        <mxPoint x="412" y="1340" as="targetPoint"/>
+                        <mxPoint x="442.02857142857147" y="1360" as="sourcePoint"/>
+                        <mxPoint x="272" y="1340" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="590" y="1340"/>
+                            <mxPoint x="450" y="1340"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="63" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;เพิ่ม i ขึ้นหนึ่งค่า&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="1360" width="100" height="40" as="geometry"/>
+                <mxCell id="63" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;เพิ่ม i ขึ้นหนึ่งค่า&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1360" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="67" target="68">
+                <mxCell id="69" value="" style="edgeStyle=none;html=1;" parent="1" source="67" target="68" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;num1←num[i]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="364.99" y="1550" width="100" height="40" as="geometry"/>
+                <mxCell id="67" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;num1←num[i]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="224.99" y="1550" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="68" target="72">
+                <mxCell id="73" value="" style="edgeStyle=none;html=1;" parent="1" source="68" target="72" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;num2←num[i+1]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="364.99" y="1620" width="100" height="40" as="geometry"/>
+                <mxCell id="68" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;num2←num[i+1]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="224.99" y="1620" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="70" target="67">
+                <mxCell id="71" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="70" target="67" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="415" y="1550" as="targetPoint"/>
+                        <mxPoint x="275" y="1550" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="74" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="71">
+                <mxCell id="74" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="71" vertex="1" connectable="0">
                     <mxGeometry x="-0.5224" y="-1" relative="1" as="geometry">
                         <mxPoint x="1" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="77" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="70">
+                <mxCell id="77" value="" style="edgeStyle=none;html=1;" parent="1" source="70" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="610" y="1480" as="targetPoint"/>
+                        <mxPoint x="470" y="1480" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="78" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="77">
+                <mxCell id="78" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="77" vertex="1" connectable="0">
                     <mxGeometry x="-0.2719" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="70" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;stratop[i]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63); font-size: 10px;&quot;&gt;เท่ากับ&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63); font-size: 10px;&quot;&gt;% หรือ /&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent; font-size: 10px;&quot;&gt;&amp;nbsp;หรือ *&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 10px; color: rgb(63, 63, 63);&quot;&gt;หรือไม่&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="340" y="1450" width="150" height="60" as="geometry"/>
+                <mxCell id="70" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;stratop[i]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63); font-size: 10px;&quot;&gt;เท่ากับ&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63); font-size: 10px;&quot;&gt;% หรือ /&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent; font-size: 10px;&quot;&gt;&amp;nbsp;หรือ *&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 10px; color: rgb(63, 63, 63);&quot;&gt;หรือไม่&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1450" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="72" target="81">
+                <mxCell id="80" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="72" target="81" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="413.56857142857143" y="1760" as="targetPoint"/>
+                        <mxPoint x="273.56857142857143" y="1760" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="72" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;sum←0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="364.99" y="1690" width="100" height="40" as="geometry"/>
+                <mxCell id="72" value="&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;sum←0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="224.99" y="1690" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="81" target="82">
+                <mxCell id="83" value="" style="edgeStyle=none;html=1;" parent="1" source="81" target="82" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="81" value="startop[i] เท่ากับ %&amp;nbsp;&lt;div&gt;หรือไม่&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="346.49" y="1760" width="137" height="80" as="geometry"/>
+                <mxCell id="92" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="83" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0506" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="85" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="82" target="84">
+                <mxCell id="90" value="" style="edgeStyle=none;html=1;" parent="1" source="81" target="89" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="startop[i] เท่ากับ /&amp;nbsp;&lt;div&gt;หรือไม่&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="344.5" y="1880" width="137" height="80" as="geometry"/>
+                <mxCell id="91" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="90" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2387" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="84" value="startop[i] เท่ากับ /&amp;nbsp;&lt;div&gt;หรือไม่&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="348" y="2000" width="137" height="80" as="geometry"/>
+                <mxCell id="81" value="startop[i] เท่ากับ %&amp;nbsp;&lt;div&gt;หรือไม่&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="206.49" y="1760" width="137" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="edgeStyle=none;html=1;" parent="1" source="82" target="84" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="85" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3556" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="" style="edgeStyle=none;html=1;" parent="1" source="82" target="104" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="startop[i] เท่ากับ /&amp;nbsp;&lt;div&gt;หรือไม่&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="208" y="1940" width="137" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="84" target="88" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="266" y="2160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="ไม่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="87" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0805" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="startop[i] เท่ากับ /&amp;nbsp;&lt;div&gt;หรือไม่&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.51" y="2070" width="137" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="188.01" y="2210" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="edgeStyle=none;html=1;" parent="1" source="89" target="95" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="edgeStyle=none;html=1;" parent="1" source="89" target="97" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="num2เท่ากับ0หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1760" width="137" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="edgeStyle=none;html=1;" parent="1" source="95" target="99" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="Error: หาร 0 ไม่ได้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="1780" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="sum←num1%num2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="408.5" y="1860" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="Error←true" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1860" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="edgeStyle=none;html=1;" parent="1" source="104" target="106" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="edgeStyle=none;html=1;" parent="1" source="104" target="107" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="num2เท่ากับ0หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="404.51" y="1940" width="137" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="edgeStyle=none;html=1;" parent="1" source="106" target="108" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Error: หาร 0 ไม่ได้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="594.51" y="1960" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="sum←num1%num2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="413.01" y="2040" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Error←true" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="604.51" y="2040" width="120" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

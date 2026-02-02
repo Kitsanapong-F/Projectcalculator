@@ -15,8 +15,8 @@ public class main {
                 break;
             }
 
-        display asd = new display();
-        logic wewe = new logic();
+            display asd = new display();
+            logic wewe = new logic();
 
         
         }

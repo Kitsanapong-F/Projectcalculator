@@ -3,14 +3,15 @@ package Calculator;
 import java.util.ArrayList;
 //ทำหน้าที่คิดเลขอย่างเดียว ไม่สนใจการรับค่า
 //ต้องมี array
+import java.util.List;
 
 public class logic {
     private ArrayList<Double> num;
     private ArrayList<Character> op;
 
     public logic() {
-        num = new ArrayList<>();
-        op = new ArrayList<>();
+        this.num = new ArrayList<>();
+        this.op = new ArrayList<>();
     }
 
     public void addNum(double num) {
@@ -19,6 +20,14 @@ public class logic {
 
     public void addop(char op) {
         this.op.add(op);
+    }
+
+    public List<Double> GetNum(){
+        return num;
+    }
+
+    public List<Character> Getop(){
+        return op;
     }
 
     public boolean CalFirst(boolean chack) {

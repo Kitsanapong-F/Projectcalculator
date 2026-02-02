@@ -1,60 +1,25 @@
 package Calculator;
 
+import java.util.List;
+
 public class display {
+    public void printProcess(logic log) {
+        List<Double> number = log.getNum();
+        List<Character> oplist = log.getOp();
+        
+        if (number.isEmpty()) return;
 
-    //แสดงการใส่เลข
-    //แสดงการเลือกเครื่องหมาย
-    //แสดง process ว่าเราทำอะไรไปแล้วบ้าง
+        System.out.print("[Process]: ");
+        for (int i = 0; i < oplist.size(); i++) {
+            System.out.print(number.get(i) + " " + oplist.get(i) + " ");
+        }
+        // พิมพ์ตัวเลขตัวสุดท้ายที่ไม่มีตัวดำเนินการต่อท้าย
+        System.out.println(number.get(number.size() - 1));
+    }
 
-        //     import java.util.Scanner;
-
-        // public class calculator {
-        //     public static void main(String[] args) {
-        //         Scanner input = new Scanner(System.in);
-                
-        //         System.out.println("=== เครื่องคิดเลขแบบสะสมค่า (กด '=' เพื่อสรุปผล) ===");
-                
-        //         System.out.print("เริ่มด้วยตัวเลข: ");
-        //         double total = input.nextDouble();
-        //         String process = "" + total;
-
-        //         while (true) {
-        //             System.out.print("ตัวดำเนินการ (+, -, *, /, %) หรือ '=' เพื่อดูคำตอบ: ");
-        //             String op = input.next();
-
-        //             if (op.equals("=")) {
-        //                 break;
-        //             }
-
-        //             System.out.print("ตัวเลขถัดไป: ");
-        //             double nextNum = input.nextDouble();
-
-        //             switch (op) { //method คำนวน
-        //                 case "+": total += nextNum; break;
-        //                 case "-": total -= nextNum; break;
-        //                 case "*": total *= nextNum; break;
-        //                 case "/": 
-        //                     if (nextNum != 0) total /= nextNum; 
-        //                     else System.out.println("Error: หารด้วย 0 ไม่ได้ (ข้ามการคำนวณนี้)");
-        //                     break;
-        //                 case "%": total %= nextNum; break;
-        //                 default:
-        //                     System.out.println("ตัวดำเนินการไม่ถูกต้อง ลองใหม่ครับ");
-        //                     continue;
-        //             }
-
-        //             process += " " + op + " " + nextNum;
-        //             System.out.println("ขณะนี้: " + process + " = " + total);
-        //         }
-
-        //         System.out.println("\n-----------------------------");
-        //         System.out.println("กระบวนการทั้งหมด: " + process);
-        //         System.out.println("คำตอบสุดท้าย: " + total);
-        //         System.out.println("-----------------------------");
-
-        //         input.close();
-        //     }
-        // }
-
-
+    public void showResult(double result) {
+        System.out.println("================================");
+        System.out.println("ANSWER: " + result);
+        System.out.println("================================");
+    }
 }

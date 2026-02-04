@@ -1,27 +1,28 @@
 package Calculator;
 
-import java.util.ArrayList;
+import java.util.ArrayList; // นำเข้า ArrayList
 import java.util.List;
 
 public class logic {
-    private ArrayList<Double> num;
-    private ArrayList<Character> op;
+    private ArrayList<Double> num; // รายการเก็บตัวเลข
+    private ArrayList<Character> op; // รายการเก็บตัวดำเนินการ
 
-    public logic() {
+    public logic() { //constructor
         this.num = new ArrayList<>();
         this.op = new ArrayList<>();
     }
 
-    public void addNum(double n) {
+    public void addNum(double n) { // เพิ่มตัวเลขเข้าไปในรายการ
         this.num.add(n);
     }
 
-    public void addOp(char o) {
+    public void addOp(char o) { // เพิ่มตัวดำเนินการเข้าไปในรายการ
         this.op.add(o);
     }
 
-    public List<Double> getNum() { return num; }
-    public List<Character> getOp() { return op; }
+    public List<Double> getNum() { return num; } // ดึงรายการตัวเลขออกมา
+    
+    public List<Character> getOp() { return op; }// ดึงรายการตัวดำเนินการออกมา
 
     // รอบที่ 1: จัดการ *, /, %
     public boolean calFirst() {

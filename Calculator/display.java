@@ -4,7 +4,7 @@ import java.util.List;
 
 public class display {
     public void printProcess(logic log) {
-        List<Double> number = log.getNum();
+        List<Double> number = log.getNum(); 
         List<Character> oplist = log.getOp();
         
         if (number.isEmpty()) return;

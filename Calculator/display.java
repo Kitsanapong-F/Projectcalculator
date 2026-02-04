@@ -16,7 +16,7 @@ public class display {
         // พิมพ์ตัวเลขตัวสุดท้ายที่ไม่มีตัวดำเนินการต่อท้าย
         System.out.println(number.get(number.size() - 1));
     }
-
+    
     public void showResult(double result) {
         System.out.println("================================");
         System.out.println("ANSWER: " + result);

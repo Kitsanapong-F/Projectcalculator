@@ -1,7 +1,7 @@
 package Calculator;
 
 import java.util.ArrayList; // นำเข้า ArrayList
-import java.util.List;
+import java.util.List; // นำเข้า List
 
 public class logic {
     private ArrayList<Double> num; // รายการเก็บตัวเลข

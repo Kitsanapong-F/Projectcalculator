@@ -26,31 +26,32 @@ public class logic {
 
     // รอบที่ 1: จัดการ *, /, %
     public boolean calFirst() {
-        boolean hasError = false;
-        for (int i = 0; i < op.size(); i++) {
-            char currentOp = op.get(i);
-            if (currentOp == '%' || currentOp == '/' || currentOp == '*') {
-                double left = num.get(i);
-                double right = num.get(i + 1);
-                double result = 0;
+        boolean hasError = false;// ตัวแปรเพื่อตรวจสอบข้อผิดพลาด เช่น การหารด้วย 0
 
-                if (currentOp == '*') {
+        for (int i = 0; i < op.size(); i++) { // วนลูปผ่านตัวดำเนินการทั้งหมด
+            char currentOp = op.get(i);// ดึงตัวดำเนินการปัจจุบัน
+            if (currentOp == '%' || currentOp == '/' || currentOp == '*') { // ถ้าตัวดำเนินการเป็น *, /, %
+                double left = num.get(i); // ดึงตัวเลขทางซ้าย
+                double right = num.get(i + 1); // ดึงตัวเลขทางขวา
+                double result = 0; // ตัวแปรเก็บผลลัพธ์ชั่วคราว
+
+                if (currentOp == '*') { // การคูณ
                     result = left * right;
                 } else {
-                    if (right == 0) {
-                        hasError = true;
+                    if (right == 0) { // ตรวจสอบการหารด้วย 0
+                        hasError = true; // ตั้งค่าว่ามีข้อผิดพลาด
                         break;
                     }
-                    result = (currentOp == '/') ? left / right : left % right;
+                    result = (currentOp == '/') ? left / right : left % right; // การหารหรือหารเอาเศษ
                 }
 
-                num.set(i, result);
-                num.remove(i + 1);
-                op.remove(i);
+                num.set(i, result);// อัปเดตตัวเลขทางซ้ายด้วยผลลัพธ์
+                num.remove(i + 1);// ลบตัวเลขทางขวาที่เพิ่งคำนวณแล้ว
+                op.remove(i); // ลบตัวดำเนินการที่เพิ่งคำนวณแล้ว
                 i--; // ถอยดัชนีกลับมาเช็คตำแหน่งเดิมที่เพิ่งเลื่อนมา
             }
         }
-        return hasError;
+        return hasError;// คืนค่าข้อผิดพลาด (ถ้ามี)
     }
 
     // รอบที่ 2: จัดการ +, -

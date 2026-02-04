@@ -8,8 +8,8 @@ public class logic {
     private ArrayList<Character> op; // รายการเก็บตัวดำเนินการ
 
     public logic() { //constructor
-        this.num = new ArrayList<>();
-        this.op = new ArrayList<>();
+        this.num = new ArrayList<>();// สร้าง ArrayList ใหม่สำหรับตัวเลข
+        this.op = new ArrayList<>(); // สร้าง ArrayList ใหม่สำหรับตัวดำเนินการ
     }
 
     public void addNum(double n) { // เพิ่มตัวเลขเข้าไปในรายการ

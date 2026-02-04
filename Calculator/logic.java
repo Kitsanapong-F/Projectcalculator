@@ -1,8 +1,6 @@
 package Calculator;
 
 import java.util.ArrayList;
-//ทำหน้าที่คิดเลขอย่างเดียว ไม่สนใจการรับค่า
-//ต้องมี array
 import java.util.List;
 
 public class logic {
@@ -14,70 +12,57 @@ public class logic {
         this.op = new ArrayList<>();
     }
 
-    public void addNum(double num) {
-        this.num.add(num);
+    public void addNum(double n) {
+        this.num.add(n);
     }
 
-    public void addop(char op) {
-        this.op.add(op);
+    public void addOp(char o) {
+        this.op.add(o);
     }
 
-    public List<Double> GetNum(){
-        return num;
-    }
+    public List<Double> getNum() { return num; }
+    public List<Character> getOp() { return op; }
 
-    public List<Character> Getop(){
-        return op;
-    }
-
-    public boolean CalFirst(boolean chack) {
+    // รอบที่ 1: จัดการ *, /, %
+    public boolean calFirst() {
+        boolean hasError = false;
         for (int i = 0; i < op.size(); i++) {
-            if (op.get(i) == '%' || op.get(i) == '/' || op.get(i) == '*') {
+            char currentOp = op.get(i);
+            if (currentOp == '%' || currentOp == '/' || currentOp == '*') {
+                double left = num.get(i);
+                double right = num.get(i + 1);
+                double result = 0;
 
-                switch (op.get(i)) {
-                    case '%':
-                        if (num.get(i + 1) == 0) {
-                            chack = true;
-                        } else {
-                            num.set(i, num.get(i) % num.get(i + 1));
-                        }
+                if (currentOp == '*') {
+                    result = left * right;
+                } else {
+                    if (right == 0) {
+                        hasError = true;
                         break;
-                    case '/':
-                        if (num.get(i + 1) == 0) {
-                            chack = true;
-                        } else {
-                            num.set(i, num.get(i) / num.get(i + 1));
-                        }
-                        break;
-                    case '*':
-                            num.set(i, num.get(i) * num.get(i + 1));
-                        break;
+                    }
+                    result = (currentOp == '/') ? left / right : left % right;
                 }
-                if (!chack) {
-                    num.remove(i+1);
-                    op.remove(i);
-                    i--;
-                }
+
+                num.set(i, result);
+                num.remove(i + 1);
+                op.remove(i);
+                i--; // ถอยดัชนีกลับมาเช็คตำแหน่งเดิมที่เพิ่งเลื่อนมา
             }
         }
-        return chack;
+        return hasError;
     }
-    public double CalSum() {
+
+    // รอบที่ 2: จัดการ +, -
+    public double calSum() {
         double sum = num.get(0);
-        for(int i = 0; i < op.size() ; i++){
-            switch (op.get(i)) {
-                case '+':
-                    sum += num.get(i+1); 
-                    break;
-                case '-':
-                    sum -= num.get(i+1); 
-                    break;
-            }
+        for (int i = 0; i < op.size(); i++) {
+            if (op.get(i) == '+') sum += num.get(i + 1);
+            else if (op.get(i) == '-') sum -= num.get(i + 1);
         }
-        return sum ;
+        return sum;
     }
 
-    public void clear(){
+    public void clear() {
         num.clear();
         op.clear();
     }

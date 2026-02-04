@@ -9,7 +9,7 @@ public class Calculator {
         display display = new display();
 
         boolean running = true;
-
+        
         while (running) { // ลูปหลักสำหรับเริ่มการคำนวณใหม่
             System.out.println("\n---Calculator---");
             System.out.print("num: ");
@@ -27,12 +27,19 @@ public class Calculator {
             while (true) { // ลูปสำหรับป้อนตัวดำเนินการไปเรื่อยๆ
                 input.nextLine(); // clear buffer
                 System.out.print("ตัวดำเนินการ (+, -, *, /, %) หรือ '=' เพื่อดูคำตอบ: ");
+                while (!input.hasNext("[+*/%=-]")) {
+                    //[...] หมายถึงเลือกแค่ตัวเดียวจากด้านในนี้
+                    System.out.println("กรุณาป้อนตัวดำเนินการเท่านั้น!");
+                    System.out.print("ตัวดำเนินการ (+, -, *, /, %) หรือ '=' เพื่อดูคำตอบ: ");
+                    input.nextLine();
+                }
                 String op = input.nextLine();
+                op = op.trim();//ตัดช่องว่าง
 
                 if (op.equals("=")) {
                     break;
                 }
-
+                
                 char sop = op.charAt(0);
                 logic.addOp(sop);
 

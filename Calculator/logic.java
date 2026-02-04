@@ -1,4 +1,4 @@
-package Calculator1;
+package Calculator;
 
 import java.util.ArrayList;
 //ทำหน้าที่คิดเลขอย่างเดียว ไม่สนใจการรับค่า

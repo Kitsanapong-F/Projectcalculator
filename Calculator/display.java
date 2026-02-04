@@ -1,10 +1,9 @@
-package Calculator1;
+package Calculator;
 
 import java.util.ArrayList;
 //แสดงการใส่เลข
 //แสดงการเลือกเครื่องหมาย
 //แสดง process ว่าเราทำอะไรไปแล้วบ้าง
-import java.util.List;
 
 public class display {
     private ArrayList<Double> number;
